@@ -1,0 +1,25 @@
+.header {
+  min-height: 5rem;
+  padding: 0 8vw;
+  background-color: #F9F9F9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #011627;
+  padding: 0.6em 1em;
+  border-radius: 1rem;
+  font-size: 90%;
+}
+.navbar a:last-child {
+  color: #F9F9F9;
+  background-color: #2EC4B6;
+}
+
+.logo {
+  text-decoration: none;
+  color: #011627;
+}/*# sourceMappingURL=style.css.map */

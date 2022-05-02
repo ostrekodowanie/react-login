@@ -1,0 +1,34 @@
+.container {
+  padding: 0.5in 2rem;
+  margin-bottom: 1in;
+  box-shadow: 11px 14px 24px -18px rgb(66, 68, 90);
+  border: 1px solid rgba(1, 22, 39, 0.12);
+  border-radius: 1rem;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.container h1 {
+  margin-top: 0;
+  margin-bottom: 1.1em;
+}
+.container h1 span {
+  color: #2EC4B6;
+}
+
+.forgot-password {
+  text-decoration: none;
+  color: #2EC4B6;
+  font-weight: 500;
+  padding: 1.2em 0 1.6em 0;
+  border-bottom: 1px solid rgba(1, 22, 39, 0.26);
+}
+
+.sign-up {
+  padding-top: 1em;
+  color: rgba(1, 22, 39, 0.5);
+}
+.sign-up a {
+  color: #2EC4B6;
+  text-decoration: none;
+}/*# sourceMappingURL=login.css.map */

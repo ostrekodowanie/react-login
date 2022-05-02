@@ -1,0 +1,26 @@
+$primary: #2EC4B6;
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    input {
+        font-size: 1.2rem;
+        padding: 0.8em 1em;
+        border-radius: 8px;
+        background-color: #E6F9F7;
+        border: 1px solid rgba(1, 22, 39, 0.26);
+    }
+    input::placeholder {
+        color:rgba(1, 22, 39, 0.26);
+    }
+    button {
+        font-size: 1.2rem;
+        padding: 0.8em;
+        background-color: $primary;
+        color: white;
+        border: none;
+        border-radius: 0.5rem;
+        cursor: pointer;
+    }
+}
