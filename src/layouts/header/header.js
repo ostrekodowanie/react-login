@@ -3,7 +3,7 @@ import './sass/style.css';
 function Header() {
     return (
         <header className="header">
-            <small><a class="logo" href="">Logo</a></small>
+            <small><a className="logo" href="">Logo</a></small>
             <nav>
                 <div className="navbar">
                     <a href="">Sign in</a>
